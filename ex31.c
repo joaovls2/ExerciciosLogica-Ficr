@@ -7,6 +7,8 @@ float celsius(int f) {
 
 int main() {
 	
+	setlocale(LC_ALL, "pt_BR.UTF-8");
+	
 	int f = 50;
 	float c = 0.0;
 	
