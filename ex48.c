@@ -3,6 +3,8 @@
 
 int main() {
 	
+	setlocale(LC_ALL, "pt_BR.UTF-8");
+	
 	float soma = 0.0;
 	float pe = 0.0;
 	int resp;
@@ -60,6 +62,5 @@ int main() {
 		break;
 	}			
 			
-	
 	return 0;
 }

@@ -4,6 +4,8 @@
 
 int main() {
 	
+	setlocale(LC_ALL, "pt_BR.UTF-8");
+	
 	int x, a, s, y, z, i, pot;
 	
 	printf("Digite o numero de x: ");

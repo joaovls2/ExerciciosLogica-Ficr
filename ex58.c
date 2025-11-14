@@ -3,6 +3,8 @@
 
 int main() {
 	
+	setlocale(LC_ALL, "pt_BR.UTF-8");
+	
 	int A[10];
 	int B[10];
 	int i;
@@ -23,8 +25,6 @@ int main() {
 	for(i = 0; i < 10; i++) {
 		printf("%d\n", B[i]);
 	}
-	
-	
 	
 	return 0;
 }

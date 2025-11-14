@@ -3,6 +3,8 @@
 
 int main() {
 	
+	setlocale(LC_ALL, "pt_BR.UTF-8");
+	
 	int n = 0;
 	int contador = 0;
 	int soma = 0;

@@ -3,6 +3,8 @@
 
 int main() {
 	
+	setlocale(LC_ALL, "pt_BR.UTF-8");
+	
 	float i;
 	float x = 3.0;
 	float s = 1.0;

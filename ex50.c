@@ -3,6 +3,8 @@
 
 int main() {
 	
+	setlocale(LC_ALL, "pt_BR.UTF-8");
+	
 	int i;
 	int m = 0;
 	int homem = 0;
@@ -41,8 +43,6 @@ int main() {
 	printf("A MENOR ALTURA: %.2f\n", menor);
 	printf("MEDIA DE ALTURA DAS MULHERES: %%.2f", media);
 	printf("QUANTIDADE DE HOMENS: %d", homem);
-	
-	
 	
 	return 0;
 }

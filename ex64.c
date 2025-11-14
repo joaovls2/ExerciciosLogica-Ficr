@@ -3,6 +3,8 @@
 
 int main() {
 	
+	setlocale(LC_ALL, "pt_BR.UTF-8");
+	
 	int B[3][3];
 	int i, j;
 	int soma, somaMaior, pos = 0;

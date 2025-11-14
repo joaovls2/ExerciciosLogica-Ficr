@@ -3,6 +3,8 @@
 
 int main() {
 	
+	setlocale(LC_ALL, "pt_BR.UTF-8");
+	
 	int i = 0;
 	int fil = 0;
 	float soma2 = 0.0;

@@ -2,6 +2,8 @@
 #include <locale.h>
 
 int main() {
+	
+	setlocale(LC_ALL, "pt_BR.UTF-8");
  	
 	float x = 0.0;
 	int tempo = 0;

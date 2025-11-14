@@ -3,6 +3,8 @@
 
 int main() {
 	
+	setlocale(LC_ALL, "pt_BR.UTF-8");
+	
 	int V[10];
 	int i;
 	int maior = 0;
@@ -21,9 +23,6 @@ int main() {
 	printf("\n\n");
 	printf("MAIOR NUMERO: %d\n", maior);
 	printf("POSICAO: %d", pos+1);
-	
-	
-	
 	
 	return 0;
 }

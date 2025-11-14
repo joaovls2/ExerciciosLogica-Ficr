@@ -2,7 +2,8 @@
 #include <locale.h>
 
 int main() {
-	
+
+	setlocale(LC_ALL, "pt_BR.UTF-8");
 
     int M[4][5];
     int linha = 0;
@@ -36,8 +37,6 @@ int main() {
  	printf("\n\n");
  	printf("MAIOR ELEMENTO: %d\n", maior);
  	printf("POSICAO DO MAIOR ELEMENTO: LINHA %d | COLUNA %d", linha, coluna);
-	
-	
 	
 	return 0;
 }
